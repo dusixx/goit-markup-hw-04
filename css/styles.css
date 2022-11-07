@@ -374,7 +374,6 @@ body {
 
 .team .subtitle {
   margin-bottom: 10px;
-
   font-weight: 500;
   font-size: 16px;
   line-height: calc(19 / 16);
@@ -528,7 +527,7 @@ body {
   color: var(--footer-link-accent-color);
 }
 
-.footer-container {
+.footer .wrapper {
   display: flex;
   align-items: baseline;
   gap: 70px;
