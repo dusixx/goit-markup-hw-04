@@ -58,7 +58,7 @@
   --outline-style: solid;
 
   --container-width: 1200px;
-  --section-min-width: 1600px;
+  --section-width: 1600px;
 
   --socials-link-hover-color: var(--white-color);
 
@@ -273,13 +273,14 @@ body {
 /* #region Hero */
 
 .hero {
+  max-width: var(--section-width);
+  margin: 0 auto;
   padding: 200px 0;
   min-width: var(--container-width);
   background-color: var(--hero-background-color);
 }
 
 .hero.bg-img {
-  max-width: var(--section-min-width);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
