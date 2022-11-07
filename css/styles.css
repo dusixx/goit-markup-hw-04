@@ -279,8 +279,10 @@ body {
 }
 
 .hero.bg-img {
+  max-width: var(--section-min-width);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   background-image: linear-gradient(var(--hero-overlay-color), var(--hero-overlay-color)),
     url("../images/hero/hero-bg.jpg");
 }
